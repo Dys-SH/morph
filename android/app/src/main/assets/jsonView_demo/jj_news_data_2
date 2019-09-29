@@ -1,0 +1,125 @@
+{
+  "ModuldType": 7,
+  "Items": [
+    {
+      "Code": "201909111234476027",
+      "Title": "哈佛斯蒂芬吉欧斯家阿卡卡；阿里SDK阿萨德； 看",
+      "TitleColor": 0,
+      "Image": "http://baiducdn.pig66.com/uploadfile/2017/0511/20170511074941292.jpg",
+      "ImageType": "0",
+      "ArtImageList": [
+        "https://z1.dfcfw.com/2019/9/11/2019091109045773841864.jpg"
+      ],
+      "ReviewCount": 38,
+      "ReviewCountValue": "38",
+      "ArtMediaName": "阿斯蒂芬",
+      "ShareCount": 0,
+      "ShareCountValue": "0",
+      "Url": "",
+      "Type": 0,
+      "CanShare": true,
+      "CanReview": true,
+      "IsFast": false,
+      "Tags": [],
+      "PublishTime": "\/Date(1568163806000)\/",
+      "CreateTime": "\/Date(1568163960047)\/",
+      "Time": "2019-09-11 09:03:26",
+      "TimeValue": "今天 09:03",
+      "DatePart": "今天",
+      "TimePart": "09:03",
+      "GroupName": "今天",
+      "OrderTime": "\/Date(-62135596800000)\/",
+      "OrderTimeValue": "0001-01-01 00:00:00",
+      "Link": {
+        "LinkType": 1,
+        "AdId": 0,
+        "LinkTo": "fund://page/newsdetail?newsid=201909111234476027",
+        "IsVerifyLogin": false
+      }
+    },
+    {
+      "Code": "201909111234462855",
+      "Title": "富时中国A50指数期货开盘上涨0.6%",
+      "TitleColor": 0,
+      "Image": "https://z1.dfcfw.com/2019/9/11/20190911090408751068451.jpg",
+      "ImageType": "0",
+      "ArtImageList": [
+        "https://z1.dfcfw.com/2019/9/11/20190911090408751068451.jpg"
+      ],
+      "ReviewCount": 67,
+      "ReviewCountValue": "67",
+      "ArtMediaName": "证券时报",
+      "ShareCount": 1,
+      "ShareCountValue": "1",
+      "Url": "",
+      "Type": 0,
+      "CanShare": true,
+      "CanReview": true,
+      "IsFast": false,
+      "Tags": [],
+      "PublishTime": "\/Date(1568163621000)\/",
+      "CreateTime": "\/Date(1568163720073)\/",
+      "Time": "2019-09-11 09:00:21",
+      "TimeValue": "今天 09:00",
+      "DatePart": "今天",
+      "TimePart": "09:00",
+      "GroupName": "今天",
+      "OrderTime": "\/Date(-62135596800000)\/",
+      "OrderTimeValue": "0001-01-01 00:00:00",
+      "Link": {
+        "LinkType": 1,
+        "AdId": 0,
+        "LinkTo": "fund://page/newsdetail?newsid=201909111234462855",
+        "IsVerifyLogin": false
+      }
+    },
+    {
+      "Code": "qxxz",
+      "Title": "外汇局：取消QFII、RQFII投资额度限制 扩大金融市场对外开放",
+      "TitleColor": 3,
+      "Image": "https://z1.dfcfw.com/2019/9/10/201909101704001368025069.jpg",
+      "ImageType": "0",
+      "ArtImageList": [
+        "https://z1.dfcfw.com/2019/9/10/201909101704001368025069.jpg"
+      ],
+      "ReviewCount": 0,
+      "ReviewCountValue": "0",
+      "ArtMediaName": "国家外汇管理局",
+      "ShareCount": 130,
+      "ShareCountValue": "130",
+      "Url": "",
+      "Type": 2,
+      "CanShare": true,
+      "CanReview": false,
+      "IsFast": false,
+      "Tags": [
+        "专题"
+      ],
+      "PublishTime": "\/Date(1568106155000)\/",
+      "CreateTime": "\/Date(1568106240057)\/",
+      "Time": "2019-09-10 17:02:35",
+      "TimeValue": "昨天 17:02",
+      "DatePart": "昨天",
+      "TimePart": "17:02",
+      "GroupName": "昨天",
+      "OrderTime": "\/Date(-62135596800000)\/",
+      "OrderTimeValue": "0001-01-01 00:00:00",
+      "Link": {
+        "LinkType": 1,
+        "AdId": 0,
+        "LinkTo": "fund://page/newstopic?newsid=qxxz",
+        "IsVerifyLogin": false
+      }
+    }
+  ],
+  "MoreText": "更多推荐",
+  "MoreLink": {
+    "LinkType": 1,
+    "AdId": 0,
+    "LinkTo": "fund://page/newshome",
+    "IsVerifyLogin": false
+  },
+  "ModuleCode": "News",
+  "Title": "发送到2阿萨德",
+  "SubTitle": "肥嘟嘟"
+}

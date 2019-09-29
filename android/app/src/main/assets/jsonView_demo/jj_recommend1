@@ -1,0 +1,458 @@
+{
+  "type": "view",
+  "width": "fill",
+  "height": "auto",
+  "flex-direction": "column",
+  "background-color": "#00FF7F",
+  "children": [
+    {
+      "id": "title",
+      "type": "view",
+      "width": "fill",
+      "height": "40",
+      "align-items": "center",
+      "flex-direction": "row",
+      "children": [
+        {
+          "type": "text",
+          "width": "auto",
+          "height": "auto",
+          "text": "<?Title?>",
+          "color": "#888888",
+          "font-size": "16",
+          "margin-left": "16"
+        },
+        {
+          "type": "text",
+          "width": "auto",
+          "height": "auto",
+          "text": "<?SubTitle?>",
+          "color": "#888888",
+          "font-size": "13",
+          "margin-left": "16"
+        }
+      ]
+    },
+    {
+      "id": "div",
+      "type": "view",
+      "width": "fill",
+      "height": "0.5",
+      "flex-direction": "row",
+      "background-color": "#888888"
+    },
+    {
+      "id": "item1",
+      "type": "view",
+      "width": "fill",
+      "height": "auto",
+      "flex-direction": "row",
+      "action": {
+        "data": "<?Items.0.Link?>"
+      },
+      "children": [
+        {
+          "type": "image",
+          "padding": "10",
+          "width": "100",
+          "height": "100",
+          "src": "<?Items.0.TrendImg?>"
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "fill",
+          "flex-direction": "column",
+          "padding": "5",
+          "justify-content": "space-between",
+          "flex": "1",
+          "children": [
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.0.Title?>",
+              "color": "#000000",
+              "font-size": "16"
+            },
+            {
+              "type": "view",
+              "width": "fill",
+              "height": "auto",
+              "justify-content": "space-between",
+              "children": [
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.0.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.0.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.1.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.1.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.2.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.0.YieldRateList.2.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.0.SubTitle?>",
+              "color": "#888888",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "div",
+      "type": "view",
+      "width": "fill",
+      "height": "0.5",
+      "flex-direction": "row",
+      "background-color": "#888888"
+    },
+    {
+      "id": "item2",
+      "type": "view",
+      "width": "fill",
+      "height": "auto",
+      "flex-direction": "row",
+      "action": {
+        "id": "item2",
+        "data": "<?Items.1.Link?>"
+      },
+      "children": [
+        {
+          "type": "image",
+          "padding": "10",
+          "width": "100",
+          "height": "100",
+          "src": "<?Items.1.TrendImg?>"
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "fill",
+          "flex-direction": "column",
+          "padding": "5",
+          "justify-content": "space-between",
+          "flex": "1",
+          "children": [
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.1.Title?>",
+              "color": "#000000",
+              "font-size": "16"
+            },
+            {
+              "type": "view",
+              "width": "fill",
+              "height": "auto",
+              "justify-content": "space-between",
+              "children": [
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.0.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.0.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.1.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.1.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.2.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.1.YieldRateList.2.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.1.SubTitle?>",
+              "color": "#888888",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "div",
+      "type": "view",
+      "width": "fill",
+      "height": "0.5",
+      "flex-direction": "row",
+      "background-color": "#888888"
+    },
+    {
+      "id": "item3",
+      "type": "view",
+      "width": "fill",
+      "height": "auto",
+      "flex-direction": "row",
+      "action": {
+        "data": "<?Items.2.Link?>"
+      },
+      "children": [
+        {
+          "type": "image",
+          "padding": "10",
+          "width": "100",
+          "height": "100",
+          "src": "<?Items.2.TrendImg?>"
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "fill",
+          "flex-direction": "column",
+          "padding": "5",
+          "justify-content": "space-between",
+          "flex": "1",
+          "children": [
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.2.Title?>",
+              "color": "#000000",
+              "font-size": "16"
+            },
+            {
+              "type": "view",
+              "width": "fill",
+              "height": "auto",
+              "justify-content": "space-between",
+              "children": [
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.0.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.0.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.1.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.1.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                },
+                {
+                  "type": "view",
+                  "width": "auto",
+                  "height": "auto",
+                  "align-items": "center",
+                  "flex-direction": "column",
+                  "children": [
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.2.YieldRate?>",
+                      "color": "#DC143C",
+                      "font-size": "14"
+                    },
+                    {
+                      "type": "text",
+                      "width": "auto",
+                      "height": "auto",
+                      "text": "<?Items.2.YieldRateList.2.PeriodText?>",
+                      "margin-top": "2",
+                      "color": "#888888",
+                      "font-size": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "text": "<?Items.2.SubTitle?>",
+              "color": "#888888",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

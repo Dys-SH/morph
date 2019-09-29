@@ -1,0 +1,241 @@
+{
+  "type": "view",
+  "width": "fill",
+  "height": "fill",
+  "background-color": "#FFFFFF",
+  "flex-direction": "column",
+  "align-items": "center",
+  "children": [
+    {
+      "type": "view",
+      "width": "fill",
+      "height": "225",
+      "background-image": "http://j5.dfcfw.com/image/201407/20140721161853.jpg",
+      "flex-direction": "column",
+      "align-items": "center",
+      "action": {
+        "xxxx": "ssssss"
+      },
+      "children": [
+        {
+          "type": "text",
+          "width": "auto",
+          "height": "auto",
+          "color": "#FFFFFF",
+          "text": "啦啦啦",
+          "font-weight": "bold",
+          "font-size": "24",
+          "margin-top": "155",
+          "lines": "1",
+          "action": {
+            "xxxx": "ssssss"
+          }
+        },
+        {
+          "type": "text",
+          "width": "auto",
+          "height": "auto",
+          "color": "#FFFFFF",
+          "text": "全程保障交易资金安全",
+          "font-size": "15",
+          "margin-top": "4"
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "width": "auto",
+      "height": "auto",
+      "flex-direction": "row",
+      "margin-top": "30",
+      "justify-content": "center",
+      "children": [
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "资金银行保障",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "margin-left": "38",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "民生银行监管",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "width": "auto",
+      "height": "auto",
+      "flex-direction": "row",
+      "margin-top": "35",
+      "justify-content": "center",
+      "children": [
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "交易实名认证",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "margin-left": "38",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "交易全程监控",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "width": "auto",
+      "height": "auto",
+      "flex-direction": "row",
+      "margin-top": "35",
+      "justify-content": "center",
+      "children": [
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "资金同卡进出",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        },
+        {
+          "type": "view",
+          "width": "auto",
+          "height": "auto",
+          "margin-left": "38",
+          "flex-direction": "row",
+          "align-items": "center",
+          "children": [
+            {
+              "type": "image",
+              "width": "35",
+              "height": "35",
+              "src": "http://icon.chrafz.com/uploads/allimg/170119/1-1F119135A00-L.png"
+            },
+            {
+              "type": "text",
+              "width": "auto",
+              "height": "auto",
+              "color": "#3399ff",
+              "text": "消息极速推送",
+              "margin-left": "5",
+              "font-size": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "width": "auto",
+      "height": "auto",
+      "color": "#999999",
+      "text": "天天基金系证监会批准的首批基金销售机构",
+      "margin-top": "50",
+      "font-size": "14"
+    },
+    {
+      "type": "text",
+      "width": "auto",
+      "height": "auto",
+      "margin-top": "3",
+      "color": "#999999",
+      "text": "上市公司东方财富全资子公司",
+      "font-size": "14"
+    }
+  ]
+}

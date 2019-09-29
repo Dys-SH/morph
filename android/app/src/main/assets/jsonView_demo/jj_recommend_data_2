@@ -1,0 +1,106 @@
+{
+  "ModuldType": 59,
+  "Items": [
+    {
+      "Title": "布局科技 阿拉山口的记录",
+      "SubTitle": "啊睡觉哦了大神(LOF)",
+      "TrendImg": "http://img5.duitang.com/uploads/item/201411/16/20141116000412_THEZy.thumb.700_0.jpeg",
+      "TrendImgNew": "https://j3.dfcfw.com/images/AppHome1/SYL_JN/161903.png",
+      "YieldRate": "77.62",
+      "PeriodText": "今年来",
+      "YieldRateList": [
+        {
+          "YieldRate": "11.11",
+          "Period": "SYL_JN",
+          "PeriodText": "啊哈哈"
+        },
+        {
+          "YieldRate": "22.22",
+          "Period": "SYL_1N",
+          "PeriodText": "嘻嘻"
+        },
+        {
+          "YieldRate": "30.33",
+          "Period": "SYL_LN",
+          "PeriodText": "啦啦"
+        }
+      ],
+      "Link": {
+        "LinkType": 2,
+        "AdId": 0,
+        "LinkTo": "https://topic.1234567.com.cn/html/2019/8/30/126095_2019083014373741.html?ztcode=126095_2019083014373741",
+        "IsVerifyLogin": false
+      },
+      "Weight": 110
+    },
+    {
+      "Title": "一键布局大消费",
+      "SubTitle": "财通资管消费精选混合",
+      "TrendImg": "https://j3.dfcfw.com/images/AppHome/SYL_JN/005682.png",
+      "TrendImgNew": "https://j3.dfcfw.com/images/AppHome1/SYL_JN/005682.png",
+      "YieldRate": "72.97",
+      "PeriodText": "今年来",
+      "YieldRateList": [
+        {
+          "YieldRate": "72.97",
+          "Period": "SYL_JN",
+          "PeriodText": "今年来"
+        },
+        {
+          "YieldRate": "59.91",
+          "Period": "SYL_1N",
+          "PeriodText": "近1年"
+        },
+        {
+          "YieldRate": "32.55",
+          "Period": "SYL_LN",
+          "PeriodText": "成立来"
+        }
+      ],
+      "Link": {
+        "LinkType": 2,
+        "AdId": 0,
+        "LinkTo": "https://topic.1234567.com.cn/html/2019/9/2/197107_20190902111934816.html?ztcode=197107_20190902111934816",
+        "IsVerifyLogin": false
+      },
+      "Weight": 105
+    },
+    {
+      "Title": "科技黑马 把握成长机遇",
+      "SubTitle": "广发双擎升级混合",
+      "TrendImg": "https://j3.dfcfw.com/images/AppHome/SYL_6Y/005911.png",
+      "TrendImgNew": "https://j3.dfcfw.com/images/AppHome1/SYL_6Y/005911.png",
+      "YieldRate": "47.36",
+      "PeriodText": "近6月",
+      "YieldRateList": [
+        {
+          "YieldRate": "47.36",
+          "Period": "SYL_6Y",
+          "PeriodText": "近6月"
+        },
+        {
+          "YieldRate": "90.42",
+          "Period": "SYL_JN",
+          "PeriodText": "今年来"
+        },
+        {
+          "YieldRate": "87.16",
+          "Period": "SYL_LN",
+          "PeriodText": "成立来"
+        }
+      ],
+      "Link": {
+        "LinkType": 2,
+        "AdId": 0,
+        "LinkTo": "https://topic.1234567.com.cn/html/2019/9/5/128630_20190905164721385.html?ztcode=128630_20190905164721385",
+        "IsVerifyLogin": false
+      },
+      "Weight": 85
+    }
+  ],
+  "MoreText": "",
+  "MoreLink": null,
+  "ModuleCode": "FundHotProduct561",
+  "Title": "基金爆款",
+  "SubTitle": "品牌好基，紧跟市场趋势"
+}

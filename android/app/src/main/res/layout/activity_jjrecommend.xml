@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5DEB3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#778899"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="动态布局"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="view1"
+            android:text="布局1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="view2"
+            android:text="布局2" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#778899"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="动态数据绑定"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="data1"
+            android:text="数据1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="data2"
+            android:text="数据2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </FrameLayout>
+</LinearLayout>
