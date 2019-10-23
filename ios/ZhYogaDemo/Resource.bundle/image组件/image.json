@@ -1,0 +1,23 @@
+{
+    "type": "view",
+    "width": "fill",
+    "height": "500px",
+    "background-color": "#ffffff",
+    "margin-top": "20px",
+    "border-width": "1px",
+    "border-color": "#68CFBB",
+    "padding": "0px 0px",
+    "flex-direction": "column",
+    "children" : [
+        {
+            "type": "image",
+            "src": "http://b.hiphotos.baidu.com/image/pic/item/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg",
+            "margin-top": "20px",
+            "width": "300",
+            "height": "300",
+            "action": {
+                "ddd": "eeeeee"
+            }
+        }
+    ]
+}

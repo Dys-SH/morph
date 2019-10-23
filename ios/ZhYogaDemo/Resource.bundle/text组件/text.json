@@ -1,0 +1,44 @@
+{
+    "type": "view",
+    "width": "fill",
+    "height": "500px",
+    "background-color": "#ffffff",
+    "margin-top": "20px",
+    "border-width": "1px",
+    "border-color": "#68CFBB",
+    "padding": "0px 0px",
+    "flex-direction": "column",
+    "children" : [
+        {
+            "type": "text",
+            "text": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+            "text-align": "center",
+            "color": "#000000",
+            "background-color": "#D9DBDD",
+            "font-size": "25px",
+            "margin-top": "20px",
+            "width": "fill",
+            "height": "auto",
+            "lines": "1",
+            "action": {
+                "ddd": "eeeeee"
+            }
+        },
+        {
+            "type": "text",
+            "text": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+            "text-align": "center",
+            "color": "#000000",
+            "background-color": "#D9DBDD",
+            "font-size": "25px",
+            "font-weight": "bold",
+            "margin-top": "20px",
+            "width": "fill",
+            "height": "auto",
+            "lines": "2",
+            "action": {
+                "xxxx": "ffffffff"
+            }
+        }
+    ]
+}

@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792B378B7A99F816FEB91F6B /* Pods_ZhYogaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050007FA986B77849F32DEF /* Pods_ZhYogaDemo.framework */; };
+		8506089B235FFB1300712F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506089A235FFB1300712F0E /* AppDelegate.m */; };
+		850608A4235FFB1300712F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850608A2235FFB1300712F0E /* Main.storyboard */; };
+		850608A6235FFB1500712F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850608A5235FFB1500712F0E /* Assets.xcassets */; };
+		850608A9235FFB1500712F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850608A7235FFB1500712F0E /* LaunchScreen.storyboard */; };
+		850608AC235FFB1500712F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608AB235FFB1500712F0E /* main.m */; };
+		850608B6235FFB1500712F0E /* ZhYogaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608B5235FFB1500712F0E /* ZhYogaDemoTests.m */; };
+		850608C1235FFB1500712F0E /* ZhYogaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608C0235FFB1500712F0E /* ZhYogaDemoUITests.m */; };
+		850608D9235FFD4800712F0E /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 850608D8235FFD4800712F0E /* Resource.bundle */; };
+		850608FC235FFD4E00712F0E /* ZHLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608DC235FFD4E00712F0E /* ZHLayoutManager.m */; };
+		850608FD235FFD4E00712F0E /* ZHLayoutInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608DF235FFD4E00712F0E /* ZHLayoutInstance.m */; };
+		850608FE235FFD4E00712F0E /* UIView+ZHYG.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608E0235FFD4E00712F0E /* UIView+ZHYG.m */; };
+		85060903235FFD4E00712F0E /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608F1235FFD4E00712F0E /* YGLayout.m */; };
+		85060904235FFD4E00712F0E /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608F2235FFD4E00712F0E /* UIView+Yoga.m */; };
+		85060905235FFD4E00712F0E /* YGLayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850608F3235FFD4E00712F0E /* YGLayoutExtensions.swift */; };
+		85060906235FFD4E00712F0E /* ZHYGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 850608F4235FFD4E00712F0E /* ZHYGLayout.m */; };
+		8506090B2360008700712F0E /* ZHRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506090A2360008700712F0E /* ZHRootView.m */; };
+		8506090E236000DA00712F0E /* ZHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506090D236000DA00712F0E /* ZHView.m */; };
+		850609122360013C00712F0E /* ZHComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 850609112360013C00712F0E /* ZHComponent.m */; };
+		85060915236001B600712F0E /* ZHViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 85060914236001B600712F0E /* ZHViewComponent.m */; };
+		85060918236001C300712F0E /* ZHImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 85060917236001C300712F0E /* ZHImageComponent.m */; };
+		8506091B236001CA00712F0E /* ZHTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506091A236001CA00712F0E /* ZHTextComponent.m */; };
+		8506091E2360041E00712F0E /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506091D2360041E00712F0E /* ZHViewController.m */; };
+		850609212360046500712F0E /* ZHDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850609202360046500712F0E /* ZHDemoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		850608B2235FFB1500712F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8506088E235FFB1300712F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85060895235FFB1300712F0E;
+			remoteInfo = ZhYogaDemo;
+		};
+		850608BD235FFB1500712F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8506088E235FFB1300712F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85060895235FFB1300712F0E;
+			remoteInfo = ZhYogaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B42A564E8A189257AF953B /* Pods-ZhYogaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhYogaDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZhYogaDemo/Pods-ZhYogaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		53D298C135C85C290BC4CA4F /* Pods-ZhYogaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhYogaDemo.release.xcconfig"; path = "Target Support Files/Pods-ZhYogaDemo/Pods-ZhYogaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7050007FA986B77849F32DEF /* Pods_ZhYogaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhYogaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85060896235FFB1300712F0E /* ZhYogaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhYogaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85060899235FFB1300712F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8506089A235FFB1300712F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		850608A3235FFB1300712F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850608A5235FFB1500712F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850608A8235FFB1500712F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		850608AA235FFB1500712F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850608AB235FFB1500712F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		850608B1235FFB1500712F0E /* ZhYogaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhYogaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850608B5235FFB1500712F0E /* ZhYogaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhYogaDemoTests.m; sourceTree = "<group>"; };
+		850608B7235FFB1500712F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850608BC235FFB1500712F0E /* ZhYogaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhYogaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850608C0235FFB1500712F0E /* ZhYogaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhYogaDemoUITests.m; sourceTree = "<group>"; };
+		850608C2235FFB1500712F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850608CE235FFD0000712F0E /* ZhYogaDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhYogaDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		850608D1235FFD1F00712F0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		850608D8235FFD4800712F0E /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		850608DC235FFD4E00712F0E /* ZHLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLayoutManager.m; sourceTree = "<group>"; };
+		850608DD235FFD4E00712F0E /* ZHYoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYoga.h; sourceTree = "<group>"; };
+		850608DF235FFD4E00712F0E /* ZHLayoutInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLayoutInstance.m; sourceTree = "<group>"; };
+		850608E0235FFD4E00712F0E /* UIView+ZHYG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHYG.m"; sourceTree = "<group>"; };
+		850608EC235FFD4E00712F0E /* ZHYGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYGLayout.h; sourceTree = "<group>"; };
+		850608EE235FFD4E00712F0E /* YGLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YGLayout+Private.h"; sourceTree = "<group>"; };
+		850608EF235FFD4E00712F0E /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		850608F0235FFD4E00712F0E /* UIView+Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yoga.h"; sourceTree = "<group>"; };
+		850608F1235FFD4E00712F0E /* YGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLayout.m; sourceTree = "<group>"; };
+		850608F2235FFD4E00712F0E /* UIView+Yoga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yoga.m"; sourceTree = "<group>"; };
+		850608F3235FFD4E00712F0E /* YGLayoutExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGLayoutExtensions.swift; sourceTree = "<group>"; };
+		850608F4235FFD4E00712F0E /* ZHYGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYGLayout.m; sourceTree = "<group>"; };
+		850608F5235FFD4E00712F0E /* ZHLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLayoutManager.h; sourceTree = "<group>"; };
+		850608F7235FFD4E00712F0E /* ZHYGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYGHeader.h; sourceTree = "<group>"; };
+		850608F9235FFD4E00712F0E /* UIView+ZHYG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHYG.h"; sourceTree = "<group>"; };
+		850608FA235FFD4E00712F0E /* ZHLayoutInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLayoutInstance.h; sourceTree = "<group>"; };
+		850608FB235FFD4E00712F0E /* ZHCSSMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCSSMap.h; sourceTree = "<group>"; };
+		850609092360008700712F0E /* ZHRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHRootView.h; sourceTree = "<group>"; };
+		8506090A2360008700712F0E /* ZHRootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHRootView.m; sourceTree = "<group>"; };
+		8506090C236000DA00712F0E /* ZHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHView.h; sourceTree = "<group>"; };
+		8506090D236000DA00712F0E /* ZHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHView.m; sourceTree = "<group>"; };
+		8506090F2360010800712F0E /* ZHComponentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHComponentProtocol.h; sourceTree = "<group>"; };
+		850609102360013C00712F0E /* ZHComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHComponent.h; sourceTree = "<group>"; };
+		850609112360013C00712F0E /* ZHComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHComponent.m; sourceTree = "<group>"; };
+		85060913236001B600712F0E /* ZHViewComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewComponent.h; sourceTree = "<group>"; };
+		85060914236001B600712F0E /* ZHViewComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewComponent.m; sourceTree = "<group>"; };
+		85060916236001C300712F0E /* ZHImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHImageComponent.h; sourceTree = "<group>"; };
+		85060917236001C300712F0E /* ZHImageComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHImageComponent.m; sourceTree = "<group>"; };
+		85060919236001CA00712F0E /* ZHTextComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTextComponent.h; sourceTree = "<group>"; };
+		8506091A236001CA00712F0E /* ZHTextComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTextComponent.m; sourceTree = "<group>"; };
+		8506091C2360041E00712F0E /* ZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewController.h; sourceTree = "<group>"; };
+		8506091D2360041E00712F0E /* ZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewController.m; sourceTree = "<group>"; };
+		8506091F2360046500712F0E /* ZHDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHDemoController.h; sourceTree = "<group>"; };
+		850609202360046500712F0E /* ZHDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHDemoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85060893235FFB1300712F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B378B7A99F816FEB91F6B /* Pods_ZhYogaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608AE235FFB1500712F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608B9235FFB1500712F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA66EAC0517B85D274B33E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B42A564E8A189257AF953B /* Pods-ZhYogaDemo.debug.xcconfig */,
+				53D298C135C85C290BC4CA4F /* Pods-ZhYogaDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3012B961FA4345D8EF2DECCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7050007FA986B77849F32DEF /* Pods_ZhYogaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8506088D235FFB1300712F0E = {
+			isa = PBXGroup;
+			children = (
+				85060898235FFB1300712F0E /* ZhYogaDemo */,
+				850608B4235FFB1500712F0E /* ZhYogaDemoTests */,
+				850608BF235FFB1500712F0E /* ZhYogaDemoUITests */,
+				85060897235FFB1300712F0E /* Products */,
+				2BA66EAC0517B85D274B33E3 /* Pods */,
+				3012B961FA4345D8EF2DECCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85060897235FFB1300712F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85060896235FFB1300712F0E /* ZhYogaDemo.app */,
+				850608B1235FFB1500712F0E /* ZhYogaDemoTests.xctest */,
+				850608BC235FFB1500712F0E /* ZhYogaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85060898235FFB1300712F0E /* ZhYogaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				85060899235FFB1300712F0E /* AppDelegate.h */,
+				8506089A235FFB1300712F0E /* AppDelegate.m */,
+				8506091C2360041E00712F0E /* ZHViewController.h */,
+				8506091D2360041E00712F0E /* ZHViewController.m */,
+				8506091F2360046500712F0E /* ZHDemoController.h */,
+				850609202360046500712F0E /* ZHDemoController.m */,
+				850608D1235FFD1F00712F0E /* PrefixHeader.pch */,
+				850608D8235FFD4800712F0E /* Resource.bundle */,
+				850608DA235FFD4E00712F0E /* YogaSDK */,
+				850608A2235FFB1300712F0E /* Main.storyboard */,
+				850608A5235FFB1500712F0E /* Assets.xcassets */,
+				850608A7235FFB1500712F0E /* LaunchScreen.storyboard */,
+				850608AA235FFB1500712F0E /* Info.plist */,
+				850608AB235FFB1500712F0E /* main.m */,
+				850608CE235FFD0000712F0E /* ZhYogaDemo-Bridging-Header.h */,
+			);
+			path = ZhYogaDemo;
+			sourceTree = "<group>";
+		};
+		850608B4235FFB1500712F0E /* ZhYogaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				850608B5235FFB1500712F0E /* ZhYogaDemoTests.m */,
+				850608B7235FFB1500712F0E /* Info.plist */,
+			);
+			path = ZhYogaDemoTests;
+			sourceTree = "<group>";
+		};
+		850608BF235FFB1500712F0E /* ZhYogaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				850608C0235FFB1500712F0E /* ZhYogaDemoUITests.m */,
+				850608C2235FFB1500712F0E /* Info.plist */,
+			);
+			path = ZhYogaDemoUITests;
+			sourceTree = "<group>";
+		};
+		850608DA235FFD4E00712F0E /* YogaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				850608EB235FFD4E00712F0E /* ZHYogaKit */,
+				850608F7235FFD4E00712F0E /* ZHYGHeader.h */,
+				850608DD235FFD4E00712F0E /* ZHYoga.h */,
+				850608FB235FFD4E00712F0E /* ZHCSSMap.h */,
+				850608F9235FFD4E00712F0E /* UIView+ZHYG.h */,
+				850608E0235FFD4E00712F0E /* UIView+ZHYG.m */,
+				850608F5235FFD4E00712F0E /* ZHLayoutManager.h */,
+				850608DC235FFD4E00712F0E /* ZHLayoutManager.m */,
+				850608FA235FFD4E00712F0E /* ZHLayoutInstance.h */,
+				850608DF235FFD4E00712F0E /* ZHLayoutInstance.m */,
+				850609092360008700712F0E /* ZHRootView.h */,
+				8506090A2360008700712F0E /* ZHRootView.m */,
+				8506090C236000DA00712F0E /* ZHView.h */,
+				8506090D236000DA00712F0E /* ZHView.m */,
+				850608E1235FFD4E00712F0E /* Component */,
+			);
+			path = YogaSDK;
+			sourceTree = "<group>";
+		};
+		850608E1235FFD4E00712F0E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8506090F2360010800712F0E /* ZHComponentProtocol.h */,
+				850609102360013C00712F0E /* ZHComponent.h */,
+				850609112360013C00712F0E /* ZHComponent.m */,
+				85060913236001B600712F0E /* ZHViewComponent.h */,
+				85060914236001B600712F0E /* ZHViewComponent.m */,
+				85060916236001C300712F0E /* ZHImageComponent.h */,
+				85060917236001C300712F0E /* ZHImageComponent.m */,
+				85060919236001CA00712F0E /* ZHTextComponent.h */,
+				8506091A236001CA00712F0E /* ZHTextComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		850608EB235FFD4E00712F0E /* ZHYogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				850608ED235FFD4E00712F0E /* YogaKit */,
+				850608EC235FFD4E00712F0E /* ZHYGLayout.h */,
+				850608F4235FFD4E00712F0E /* ZHYGLayout.m */,
+			);
+			path = ZHYogaKit;
+			sourceTree = "<group>";
+		};
+		850608ED235FFD4E00712F0E /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				850608F0235FFD4E00712F0E /* UIView+Yoga.h */,
+				850608F2235FFD4E00712F0E /* UIView+Yoga.m */,
+				850608EF235FFD4E00712F0E /* YGLayout.h */,
+				850608F1235FFD4E00712F0E /* YGLayout.m */,
+				850608EE235FFD4E00712F0E /* YGLayout+Private.h */,
+				850608F3235FFD4E00712F0E /* YGLayoutExtensions.swift */,
+			);
+			path = YogaKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85060895235FFB1300712F0E /* ZhYogaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850608C5235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemo" */;
+			buildPhases = (
+				4CFB59F50400E329A58521E2 /* [CP] Check Pods Manifest.lock */,
+				85060892235FFB1300712F0E /* Sources */,
+				85060893235FFB1300712F0E /* Frameworks */,
+				85060894235FFB1300712F0E /* Resources */,
+				8BF64171ECB42CECB12ADBC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhYogaDemo;
+			productName = ZhYogaDemo;
+			productReference = 85060896235FFB1300712F0E /* ZhYogaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		850608B0235FFB1500712F0E /* ZhYogaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850608C8235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemoTests" */;
+			buildPhases = (
+				850608AD235FFB1500712F0E /* Sources */,
+				850608AE235FFB1500712F0E /* Frameworks */,
+				850608AF235FFB1500712F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850608B3235FFB1500712F0E /* PBXTargetDependency */,
+			);
+			name = ZhYogaDemoTests;
+			productName = ZhYogaDemoTests;
+			productReference = 850608B1235FFB1500712F0E /* ZhYogaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		850608BB235FFB1500712F0E /* ZhYogaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850608CB235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemoUITests" */;
+			buildPhases = (
+				850608B8235FFB1500712F0E /* Sources */,
+				850608B9235FFB1500712F0E /* Frameworks */,
+				850608BA235FFB1500712F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850608BE235FFB1500712F0E /* PBXTargetDependency */,
+			);
+			name = ZhYogaDemoUITests;
+			productName = ZhYogaDemoUITests;
+			productReference = 850608BC235FFB1500712F0E /* ZhYogaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8506088E235FFB1300712F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Zh;
+				TargetAttributes = {
+					85060895235FFB1300712F0E = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+					};
+					850608B0235FFB1500712F0E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 85060895235FFB1300712F0E;
+					};
+					850608BB235FFB1500712F0E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 85060895235FFB1300712F0E;
+					};
+				};
+			};
+			buildConfigurationList = 85060891235FFB1300712F0E /* Build configuration list for PBXProject "ZhYogaDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8506088D235FFB1300712F0E;
+			productRefGroup = 85060897235FFB1300712F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85060895235FFB1300712F0E /* ZhYogaDemo */,
+				850608B0235FFB1500712F0E /* ZhYogaDemoTests */,
+				850608BB235FFB1500712F0E /* ZhYogaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85060894235FFB1300712F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850608A9235FFB1500712F0E /* LaunchScreen.storyboard in Resources */,
+				850608A6235FFB1500712F0E /* Assets.xcassets in Resources */,
+				850608A4235FFB1300712F0E /* Main.storyboard in Resources */,
+				850608D9235FFD4800712F0E /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608AF235FFB1500712F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608BA235FFB1500712F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CFB59F50400E329A58521E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhYogaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF64171ECB42CECB12ADBC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZhYogaDemo/Pods-ZhYogaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZhYogaDemo/Pods-ZhYogaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZhYogaDemo/Pods-ZhYogaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85060892235FFB1300712F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8506091E2360041E00712F0E /* ZHViewController.m in Sources */,
+				85060918236001C300712F0E /* ZHImageComponent.m in Sources */,
+				85060906235FFD4E00712F0E /* ZHYGLayout.m in Sources */,
+				8506091B236001CA00712F0E /* ZHTextComponent.m in Sources */,
+				8506090E236000DA00712F0E /* ZHView.m in Sources */,
+				85060903235FFD4E00712F0E /* YGLayout.m in Sources */,
+				8506089B235FFB1300712F0E /* AppDelegate.m in Sources */,
+				8506090B2360008700712F0E /* ZHRootView.m in Sources */,
+				850609212360046500712F0E /* ZHDemoController.m in Sources */,
+				850608AC235FFB1500712F0E /* main.m in Sources */,
+				85060915236001B600712F0E /* ZHViewComponent.m in Sources */,
+				850608FE235FFD4E00712F0E /* UIView+ZHYG.m in Sources */,
+				850608FD235FFD4E00712F0E /* ZHLayoutInstance.m in Sources */,
+				850609122360013C00712F0E /* ZHComponent.m in Sources */,
+				85060905235FFD4E00712F0E /* YGLayoutExtensions.swift in Sources */,
+				85060904235FFD4E00712F0E /* UIView+Yoga.m in Sources */,
+				850608FC235FFD4E00712F0E /* ZHLayoutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608AD235FFB1500712F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850608B6235FFB1500712F0E /* ZhYogaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850608B8235FFB1500712F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850608C1235FFB1500712F0E /* ZhYogaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850608B3235FFB1500712F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85060895235FFB1300712F0E /* ZhYogaDemo */;
+			targetProxy = 850608B2235FFB1500712F0E /* PBXContainerItemProxy */;
+		};
+		850608BE235FFB1500712F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85060895235FFB1300712F0E /* ZhYogaDemo */;
+			targetProxy = 850608BD235FFB1500712F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		850608A2235FFB1300712F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850608A3235FFB1300712F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		850608A7235FFB1500712F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850608A8235FFB1500712F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		850608C3235FFB1500712F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		850608C4235FFB1500712F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		850608C6235FFB1500712F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B42A564E8A189257AF953B /* Pods-ZhYogaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhYogaDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZhYogaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZhYogaDemo/ZhYogaDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		850608C7235FFB1500712F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D298C135C85C290BC4CA4F /* Pods-ZhYogaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhYogaDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZhYogaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZhYogaDemo/ZhYogaDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		850608C9235FFB1500712F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZhYogaDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhYogaDemo.app/ZhYogaDemo";
+			};
+			name = Debug;
+		};
+		850608CA235FFB1500712F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZhYogaDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhYogaDemo.app/ZhYogaDemo";
+			};
+			name = Release;
+		};
+		850608CC235FFB1500712F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZhYogaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhYogaDemo;
+			};
+			name = Debug;
+		};
+		850608CD235FFB1500712F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZhYogaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zh.ZhYogaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZhYogaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85060891235FFB1300712F0E /* Build configuration list for PBXProject "ZhYogaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850608C3235FFB1500712F0E /* Debug */,
+				850608C4235FFB1500712F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850608C5235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850608C6235FFB1500712F0E /* Debug */,
+				850608C7235FFB1500712F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850608C8235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850608C9235FFB1500712F0E /* Debug */,
+				850608CA235FFB1500712F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850608CB235FFB1500712F0E /* Build configuration list for PBXNativeTarget "ZhYogaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850608CC235FFB1500712F0E /* Debug */,
+				850608CD235FFB1500712F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8506088E235FFB1300712F0E /* Project object */;
+}

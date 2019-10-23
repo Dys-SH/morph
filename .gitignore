@@ -72,3 +72,6 @@ componentrelease/
 
 app/src/main/assets/fundPlayground/
 testDoc/
+
+ios/Pods
+ios/Podfile.lock

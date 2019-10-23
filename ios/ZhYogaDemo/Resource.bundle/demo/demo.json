@@ -1,0 +1,55 @@
+[
+    {
+        "title" : "flex-direction",
+        "items" : [
+            "row",
+            "row-reverse",
+            "column",
+            "column-reverse"
+        ]
+    },
+    {
+        "title" : "justify-content",
+        "items" : [
+            "flex-start",
+            "center",
+            "flex-end",
+            "space-between",
+            "space-around"
+        ]
+    },
+    {
+        "title" : "align-items",
+        "items" : [
+            "flex-start",
+            "center",
+            "flex-end"
+        ]
+    },
+    {
+        "title" : "flex-wrap",
+        "items" : [
+            "wrap",
+            "no-wrap",
+            "wrap-reverse"
+        ]
+    },
+    {
+        "title" : "flex-shrink",
+        "items" : [
+            "flex-shrink"
+        ]
+    },
+    {
+        "title" : "text组件",
+        "items" : [
+            "text"
+        ]
+    },
+    {
+        "title" : "image组件",
+        "items" : [
+            "image"
+        ]
+    }
+]

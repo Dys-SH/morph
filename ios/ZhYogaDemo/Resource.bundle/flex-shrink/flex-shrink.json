@@ -1,0 +1,45 @@
+{
+    "type": "view",
+    "width": "fill",
+    "height": "auto",
+    "flex-direction": "column",
+    "children" : [
+        {
+            "type": "text",
+            "text": "flex-shrink",
+            "text-align": "center",
+            "width": "fill",
+            "margin-top": "20px",
+            "height": "auto"
+        },
+        {
+            "type": "view",
+            "flex-direction": "row",
+            "width": "fill",
+            "height": "auto",
+            "background-color": "#ffffff",
+            "margin-top": "20px",
+            "border-width": "1px",
+            "border-color": "#68CFBB",
+            "padding": "20px",
+            "children" : [
+                {
+                    "type": "text",
+                    "flex-shrink": "1",
+                    "text": "我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我我",
+                    "width": "auto",
+                    "border-width": "1px",
+                    "border-color": "#D9DBDD"
+                },
+                {
+                    "type": "text",
+                    "flex-shrink": "0",
+                    "text": "啊啊啊",
+                    "width": "auto",
+                    "border-width": "1px",
+                    "border-color": "#D9DBDD"
+                }
+            ]
+        }
+    ]
+}
